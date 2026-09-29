@@ -1,0 +1,10 @@
+{
+  "name": "dock9-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dock9 Studio — handmade lamp brand site (static, no framework)",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "python3 dev-server.py 4173"
+  }
+}

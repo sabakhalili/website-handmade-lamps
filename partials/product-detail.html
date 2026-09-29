@@ -1,0 +1,24 @@
+<div class="container section">
+  <p class="breadcrumb">
+    <a href="/products">Products</a> / <a href="/products?category={{CATEGORY}}">{{CATEGORY}}</a> / {{NAME}}
+  </p>
+
+  <div class="product-detail">
+    <div class="product-detail__gallery">
+      <img class="product-detail__main-image" src="/{{HERO_IMAGE_SRC}}" alt="{{HERO_IMAGE_ALT}}" />
+      <div class="product-detail__thumbs">
+        {{THUMBNAILS}}
+      </div>
+    </div>
+
+    <div class="product-detail__info">
+      <p class="product-detail__category">{{CATEGORY}}</p>
+      <h1>{{NAME}}</h1>
+      <p>{{DESCRIPTION}}</p>
+      <a class="btn btn--primary" href="#" data-whatsapp-link data-product="{{NAME}}" target="_blank" rel="noopener">
+        Enquire about this piece
+      </a>
+      <p class="product-detail__craft-note">{{CRAFT_NOTE}}</p>
+    </div>
+  </div>
+</div>
